@@ -1,15 +1,19 @@
-# Plugin.yml Configuration
-
-name: ChronoNPC
-version: 1.0
-main: com.yourname.chrononpc.Main
-api-version: 1.13
+name: ChronoLifeNPC
+main: com.horizon.chronolifenpc.Core
+version: 1.0.0
+api-version: 1.20
+description: "Chrono Life inspired human-like NPC civilisation system"
+authors: ["Turjo"]
 
 commands:
-  mycommand:
-    description: This is an example command
+  chrononpc:
+    description: Manage ChronoLife NPCs
+    usage: /chrononpc spawn|remove|list
+  quest:
+    description: Show active quest
+    usage: /quest
 
 permissions:
-  mycommand.use:
-    description: Allows user to use the command
-    default: true
+  chronolifenpc.manage:
+    description: Manage ChronoLife NPCs
+    default: op
