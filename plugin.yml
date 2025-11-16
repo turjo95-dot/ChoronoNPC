@@ -1,0 +1,15 @@
+# Plugin.yml Configuration
+
+name: ChronoNPC
+version: 1.0
+main: com.yourname.chrononpc.Main
+api-version: 1.13
+
+commands:
+  mycommand:
+    description: This is an example command
+
+permissions:
+  mycommand.use:
+    description: Allows user to use the command
+    default: true
