@@ -1,6 +1,14 @@
-# Configuration for ChronoNPC
+gemini_api_key: "AIzaSyBcOiTla0LmMtDGccCQR6f3tJmiv0EPCUg"
 
-# Add your configuration settings below.
+village:
+  expansion_interval_ms: 300000
+  breed_chance_per_tick: 0.08
+  max_population: 40
 
-date: "2025-11-16 07:08:08"
-# Additional settings can be added as needed.
+npc:
+  name_gender_balance: 0.5
+  show_bubble_distance: 5
+
+ai:
+  max_response_tokens: 200
+  personality_prompt: "You are an NPC in a medieval fantasy world. Respond naturally and briefly."
